@@ -84,7 +84,23 @@ Data Model Overview
 
 An interactive Power BI dashboard was developed to present key business insights through visualizations and enable exploratory analysis across demand trends, city performance, restaurant performance, category analysis, and customer experience.
 
-### Dashboard Overview
+### Executive Summary
+
+![Executive Summary](Images/Dashboard_Executive_Summary.png)
+
+
+### City Performance
+
+![City Performance](Images/Dashboard_City_Performance.png)
+
+
+### Restaurant Performance 
+
+![Restaurant Performance](Images/Dashboard_Restaurant.png)
+
+
+
+
 
 
 
