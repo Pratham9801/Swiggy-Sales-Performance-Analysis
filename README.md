@@ -59,6 +59,7 @@ The project was completed using the following tools and technologies:
 The project follows an end-to-end data analytics workflow, starting from raw transactional data and progressing through data preparation, business analysis, visualization, and stakeholder communication.
 
 
+
 ![Project Workflow](Images/Project_Workflow.png)
 
 ##   ⭐ Data Model
@@ -78,7 +79,8 @@ Data Model Overview
             &emsp; 4) dim_category\
             &emsp; 5) dim_dish
 
- ![Data Model](Images/Dashboard_Restaurant.png)
+
+ ![Data Model](Images/Star_Schema.png)
 
 ##   📊 Dashboard Preview
 
