@@ -4,7 +4,7 @@
 
 
 
-### 📌 Project Overview
+## 📌 Project Overview
 
 This project analyzes Swiggy's food delivery order data from January to August 2025 to understand business performance, customer ordering behavior, restaurant performance, category demand, and customer satisfaction.
 
@@ -13,13 +13,13 @@ Using SQL for data cleaning, transformation, dimensional modeling, and business 
 The project follows a complete end-to-end analytics workflow—from raw transactional data to stakeholder-ready insights through dashboards, presentations, and business reporting.
 
 
-###  🎯 Business Problem
+##  🎯 Business Problem
 
 Food delivery platforms generate large volumes of transactional data every day, making it essential to convert this information into actionable business insights. Understanding how customer demand varies across cities, restaurants, categories, and time periods can help identify opportunities to improve revenue, restaurant partnerships opportunities , and enhance customer experience.
 
 This project analyzes Swiggy's order data to answer key business questions related to demand trends, city performance, restaurant performance, category contribution, and customer ratings, ultimately supporting data-driven business decision-making.
 
-###  🎯 Project Objectives
+##  🎯 Project Objectives
 
 The primary objectives of this project were to:\
 •	Analyze Swiggy's overall business performance using key performance indicators (KPIs) such as total orders, revenue, average dish price, and customer ratings.\
@@ -29,7 +29,7 @@ The primary objectives of this project were to:\
 •	Assess customer satisfaction using rating analysis to identify regions and restaurants delivering a strong customer experience.\
 •	Develop an interactive Power BI dashboard and stakeholder presentation to communicate insights effectively and support data-driven decision-making.
 
-###   📊 Dataset Overview
+##   📊 Dataset Overview
 
 The analysis is based on Swiggy food delivery transaction data covering an 8-month period (January–August 2025). Each record represents a single customer order and contains information about the order date, restaurant,location, food category, dish, pricing, and customer rating.
 
@@ -41,7 +41,7 @@ The analysis is based on Swiggy food delivery transaction data covering an 8-mon
 | Source |	Swiggy_Dataset |
 | Key Fields |	Order Date, State, City, Restaurant Name, Food Category, Dish Name, Price, Rating, Rating Count |
 
-###    📌 Tech Stack
+##    📌 Tech Stack
 
 The project was completed using the following tools and technologies:
 
@@ -54,14 +54,14 @@ The project was completed using the following tools and technologies:
 | Microsoft Word | Business report documentation |
 | GitHub | Portfolio showcase |
 
-###    🔄 Project Workflow
+##    🔄 Project Workflow
 
 The project follows an end-to-end data analytics workflow, starting from raw transactional data and progressing through data preparation, business analysis, visualization, and stakeholder communication.
 
 
-Workflow Image 
+![Project Workflow](Images/Project_Workflow.png)
 
-###   ⭐ Data Model
+##   ⭐ Data Model
 
 To support efficient analysis and dashboard development, the raw transactional dataset was transformed into a Star Schema consisting of one fact table and multiple dimension tables.
 
@@ -78,9 +78,9 @@ Data Model Overview
             &emsp; 4) dim_category\
             &emsp; 5) dim_dish
 
- Screenshot of star schema
+ ![Data Model](Images/Dashboard_Restaurant.png)
 
-###   📊 Dashboard Preview
+##   📊 Dashboard Preview
 
 An interactive Power BI dashboard was developed to present key business insights through visualizations and enable exploratory analysis across demand trends, city performance, restaurant performance, category analysis, and customer experience.
 
@@ -97,6 +97,88 @@ An interactive Power BI dashboard was developed to present key business insights
 ### Restaurant Performance 
 
 ![Restaurant Performance](Images/Dashboard_Restaurant.png)
+
+
+
+##  📈 Key Business Insights & Recommendations
+
+The following insights summarize the most significant business findings from the analysis along with actionable recommendations that could support revenue growth, operational improvements .
+
+![Key Insight and Recommendation](Images/Recommned.png)
+
+
+## 📂 Repository Structure
+
+
+```text
+Swiggy-Sales-Performance-Analysis/
+│
+├── 📁 Dataset/
+│   └── Swiggy_Orders.xlsx
+│
+├── 📁 SQL/
+│   └── Swiggy_SQL_Analysis.sql
+│
+├── 📁 PowerBI/
+│   └── Swiggy_Sales_Dashboard.pbix
+│
+├── 📁 Presentation/
+│   └── Stakeholder_Presentation.pptx
+│
+├── 📁 Report/
+│   └── Swiggy_Sales_Analysis_Report.pdf
+│
+├── 📁 Images/
+│
+└── README.md
+```
+
+## 🚀 Skills Demonstrated
+
+Throughout this project, the following technical and analytical skills were applied:
+
+### 📊 Data Analysis
+
+* Exploratory Data Analysis (EDA)
+* KPI Development
+* Business Insight Generation
+* Root Cause Analysis
+* Data Storytelling
+
+### 🗄️ SQL & Data Modeling
+
+* Data Cleaning & Validation
+* SQL Joins & Aggregations
+* Common Table Expressions (CTEs)
+* Window Functions
+* Star Schema Design
+* Dimensional Data Modeling
+
+### 📈 Data Visualization
+
+* Interactive Dashboard Development
+* KPI Card Design
+* Trend Analysis
+* Comparative & Drill-down Visualizations
+* Stakeholder-focused Dashboard Design
+
+### 💼 Business & Communication
+
+* Business Problem Solving
+* Recommendation Development
+* Stakeholder Presentation
+* Business Report Writing
+* Analytical Documentation
+
+
+## Future Improvements
+
+Potential enhancements to extend this project include:
+
+* Incorporating customer demographics, promotional campaign, and profitability data for deeper business analysis.
+* Building predictive models to forecast demand and identify high-value customer segments.
+
+
 
 
 
